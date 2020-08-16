@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OA.Service.Interfaces
 {
-    interface IProductDetailService
+    public interface IProductDetailService
     {
         Task<ProductDetailEntity> GetAsync(Guid id);
     }

@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\OA.Domain\OA.Domain.csproj" />
+    <ProjectReference Include="..\OA.Repository\OA.Repository.csproj" />
   </ItemGroup>
 
 </Project>
